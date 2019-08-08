@@ -1,0 +1,16 @@
+﻿---
+BasedOnStyle: LLVM
+AlignAfterOpenBracket: AlwaysBreak
+AlignTrailingComments: 'true'
+BreakBeforeBraces: Attach
+BreakConstructorInitializers: BeforeColon
+ColumnLimit: '100'
+ContinuationIndentWidth: '4'
+IndentWidth: '4'
+PointerAlignment: Middle
+SpaceBeforeParens: ControlStatements
+Standard: Cpp11
+TabWidth: '4'
+UseTab: Never
+AccessModifierOffset: -4
+ReflowComments: false

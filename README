@@ -1,6 +1,6 @@
 This repo provides a simple test to query the OpenCL API for information. 
 The query function is built into a shared library.
- This library is then linked against a C++ executable.
- In addition, pybind11 is used to allow the library to be loaded at runtime by a Python script.
- Once loaded, the function can then be called from Python. Both the C++ executable and the Python script link against the same shared object file.
+This library is then linked against a C++ executable.
+In addition, pybind11 is used to allow the library to be loaded at runtime by a Python script.
+Once loaded, the function can then be called from Python. Both the C++ executable and the Python script link against the same shared object file.
 
